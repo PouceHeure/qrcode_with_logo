@@ -1,15 +1,15 @@
 import pyqrcode
 from PIL import Image
 
-LOGO_FILE = "data/test_transparent.png"
-LOGO_PERCENT_SIZE = 0.75
-LOGO_BACKGROUND_COLOR = None #(255,255,255)
-LOGO_BACKGROUND_PADDING = 0.20
+LOGO_FILE = "logo/test_transparent.png"
+LOGO_PERCENT_SIZE = 0.4
+LOGO_BACKGROUND_COLOR = (255,255,255)
+LOGO_BACKGROUND_PADDING = 0.10
 
 QRCODE_CONTENT = "https://github.com/PouceHeure/qrcode_with_logo"
-QRCODE_FILE_SAVE = "qrcode/demo_transparent_without_bg.png"
+QRCODE_FILE_SAVE = "demo/demo_transparent_bg.png"
 QRCODE_QUITE_ZONE = 1
-QRCODE_SCALE = 20
+QRCODE_SCALE = 10
 QRCODE_COLOR_BG = (255,255,255)
 QRCODE_COLOR_CONTENT = (0,200,120)
 
